@@ -41,4 +41,6 @@ io.on('connection',socket=>
 
 
 });
-console.log('socket.io server running on port 8000 ');
+
+io.listen(PORT);
+console.log(`Socket.io server running on port ${PORT}`);
