@@ -1,7 +1,11 @@
 // const socket=io('http://localhost:8000');
 
-const socket=io('http://192.168.29.1:8000',{
-    transports:['websocket'],
+// const socket=io('http://192.168.29.1:8000',{
+//     transports:['websocket'],
+// });
+
+const socket = io('https://wechat-26fm.onrender.com', {
+    transports: ['websocket']
 });
 
 const form=document.getElementById('send-container');
