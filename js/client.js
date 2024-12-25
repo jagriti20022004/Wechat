@@ -4,7 +4,7 @@
 //     transports:['websocket'],
 // });
 
-const socket = io('https://wechat-26fm.onrender.com', {
+const socket = io('https://wechat-tszn.onrender.com', {
     transports: ['websocket']
 });
 
